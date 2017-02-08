@@ -1,0 +1,68 @@
+html, body {
+	height: 100%;
+	
+}
+/* Colors */
+
+h1, h2, a, a:link, a:visited, a:hover, a:active {
+	color: #000
+}
+
+.bgcolor-ivory {
+	background-color: #FFFFF0;
+}
+
+/* Container border */
+
+.bottom-border {
+	border-bottom: solid 1px #666;
+	margin-bottom: 0;
+}
+
+
+/* Navigation */
+ .navbar-toggle {
+ 	border: solid 1px #111;
+ }
+
+ .navbar-toggle .icon-bar {
+ 	background-color: #111;
+ }
+
+ .navbar-brand {
+ 	font-size: 20px;
+ }
+
+ /* MAIN*/
+
+ button {
+ 	margin: auto;
+ 	display: block;
+ 	background-color: #412600;
+ 	color: #FFF;
+ }
+
+ #isspass {
+ 	margin-top: 10px;
+ }
+
+
+ /* MAPS */
+
+ #gpsmap, #mapsthlm {
+ 	height: 400px;
+ 	width: 100%;
+ 	margin-top: 10px;
+ 	margin-bottom: 10px;
+ }
+
+ #mapsthlm {
+ 	height: 250px;
+ }
+
+/*carousel*/
+
+.carousel-inner .item img {
+	max-height: 600px;
+	width: 100%;
+}
